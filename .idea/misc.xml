@@ -3,14 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_datos_paciente.xml" value="0.1403985507246377" />
+        <entry key="app/src/main/res/layout/activity_datos_terapeuta.xml" value="0.1403985507246377" />
+        <entry key="app/src/main/res/layout/activity_historial_paciente.xml" value="0.1403985507246377" />
+        <entry key="app/src/main/res/layout/activity_historial_terapeuta.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/activity_ingreso_paciente.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_ingreso_teerapeuta.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/activity_ingreso_terapeuta.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11770833333333333" />
         <entry key="app/src/main/res/layout/activity_menu_paciente.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/activity_menu_terapeuta.xml" value="0.1403985507246377" />
+        <entry key="app/src/main/res/layout/activity_noticias_paciente.xml" value="0.1403985507246377" />
+        <entry key="app/src/main/res/layout/activity_noticias_terapeuta.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/activity_registro_paciente.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/activity_registro_terapeuta.xml" value="0.1403985507246377" />
+        <entry key="app/src/main/res/layout/activity_servicios_disponibles.xml" value="0.1403985507246377" />
+        <entry key="app/src/main/res/layout/activity_servicios_programados.xml" value="0.1403985507246377" />
+        <entry key="app/src/main/res/layout/activity_solicitar_servicio.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1403985507246377" />
         <entry key="app/src/main/res/layout/activity_tipo_registro.xml" value="0.1403985507246377" />
       </map>

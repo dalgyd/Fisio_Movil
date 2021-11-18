@@ -10,8 +10,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fisio_Movil">
         <activity
-            android:name=".MenuTerapeuta"
+            android:name=".DatosTerapeuta"
             android:exported="false" />
+        <activity
+            android:name=".NoticiasTerapeuta"
+            android:exported="false" />
+        <activity
+            android:name=".HistorialTerapeuta"
+            android:exported="false" />
+        <activity
+            android:name=".ServiciosProgramados"
+            android:exported="false" />
+        <activity
+            android:name=".ServiciosDisponibles"
+            android:exported="false" />
+        <activity
+            android:name=".DatosPaciente"
+            android:exported="false" />
+        <activity
+            android:name=".NoticiasPaciente"
+            android:exported="false" />
+        <activity
+            android:name=".HistorialPaciente"
+            android:exported="false" />
+        <activity
+            android:name=".SolicitarServicio"
+            android:exported="false" />
+        <activity
+            android:name=".MenuTerapeuta"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MenuPaciente"
             android:exported="false" />

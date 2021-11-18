@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuTerapeuta">
+    tools:context=".MenuTerapeuta"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#42137c">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_principal_sin_fondo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Que deseas consultar?"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/serviciosDisponibles"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:onClick="serviciosDisponibles"
+        android:text="Ver los servicios disponibles"
+        app:backgroundTint="@android:color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/serviciosProgramados"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="serviciosProgramados"
+        android:text="Servicios programados"
+        app:backgroundTint="@android:color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/historialServiciosT"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="historialServiciosT"
+        android:text="Historial de servicios prestados"
+        app:backgroundTint="@android:color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/noticiasT"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="noticiasT"
+        android:text="Ver articulos de interes"
+        app:backgroundTint="@android:color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/perfilT"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="perfilT"
+        android:text="Ver mi perfil"
+        app:backgroundTint="@android:color/white"/>
+
+</LinearLayout>
