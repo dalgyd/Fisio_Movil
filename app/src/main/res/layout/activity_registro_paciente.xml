@@ -24,13 +24,13 @@
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
         android:gravity="center"
-        android:text="Registrate como paciente"
+        android:text="Registro como paciente"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"/>
 
     <CheckBox
-        android:id="@+id/autorizaDatos"
+        android:id="@+id/autorizaDatosP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tituloRegistroP"
@@ -39,12 +39,12 @@
         android:layout_marginTop="1dp"
         android:text="Autorizo el tratamiento de mi datos personales los cuales he leido y acepto."
         android:textColor="@color/white"
-        android:onClick="tratamientoDatosPersonales"/>
+        android:onClick="tratamientoDatosPersonalesP"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:layout_below="@id/autorizaDatos"
+        android:layout_below="@id/autorizaDatosP"
         android:id="@+id/formularioP">
 
         <LinearLayout
@@ -66,6 +66,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:id="@+id/nombreP"
                     android:textColor="@color/black"/>
 
             </com.google.android.material.textfield.TextInputLayout>
