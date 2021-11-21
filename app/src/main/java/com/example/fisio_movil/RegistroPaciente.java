@@ -33,7 +33,7 @@ public class RegistroPaciente extends AppCompatActivity {
     }
 
     //Cambia la pantalla a ver el tratamiento de datos
-    public void tratamientoDatosPersonales (View tdp){
+    public void tratamientoDatosPersonalesP (View tdp){
         Intent cambiar15 = new Intent(this, TratatiendoDatos.class);
         startActivity(cambiar15);
     }
