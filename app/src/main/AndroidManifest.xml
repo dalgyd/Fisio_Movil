@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fisio_Movil">
         <activity
+            android:name=".TratatiendoDatos"
+            android:exported="false" />
+        <activity
             android:name=".DatosTerapeuta"
             android:exported="false" />
         <activity
@@ -35,10 +38,10 @@
             android:exported="false" />
         <activity
             android:name=".SolicitarServicio"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".MenuTerapeuta"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MenuPaciente"
             android:exported="false" />

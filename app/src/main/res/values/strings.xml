@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Fisio_Movil</string>
+
+    <!-- Titulos hint de campos de registro -->
+    <string name="tipo_terapias">Seleccione el tipo de terapia</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="tipo_id">Tipo Doc</string>
+    <string name="documento">Numero Documento</string>
+    <string name="direccion">Direccion de residencia</string>
+    <string name="correo">Correo electronico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confirmar_contrasena">Verifique su contraseña</string>
+
 </resources>
