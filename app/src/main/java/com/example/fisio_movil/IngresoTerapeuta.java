@@ -2,6 +2,7 @@ package com.example.fisio_movil;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +33,8 @@ public class IngresoTerapeuta extends AppCompatActivity {
                     Toast.makeText(IngresoTerapeuta.this,"Ingreso Exitoso", Toast.LENGTH_SHORT).show();
 
                     //Confirmar como realizar el cambio de vista
+                    Intent intent = new Intent(getApplicationContext(), MenuTerapeuta.class);
+                    startActivity(intent);
 
                 }else{
                     Toast.makeText(IngresoTerapeuta.this,"Usuario o contraseña incorrecta", Toast.LENGTH_SHORT).show();}

@@ -33,6 +33,8 @@ public class IngresoPaciente extends AppCompatActivity {
                     Toast.makeText(IngresoPaciente.this,"Ingreso Exitoso", Toast.LENGTH_SHORT).show();
 
                     //confirmar como se realiza el cambio de activity desde el login
+                    Intent intent = new Intent(getApplicationContext(), MenuPaciente.class);
+                    startActivity(intent);
 
 
                 }else{
