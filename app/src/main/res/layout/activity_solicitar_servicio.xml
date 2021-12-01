@@ -89,7 +89,7 @@
             app:boxCornerRadiusBottomEnd="10dp"
             app:boxCornerRadiusTopEnd="10dp"
             app:boxCornerRadiusTopStart="10dp"
-            android:hint="@string/tipo_terapias">
+            android:hint="@string/jornada_servicio">
 
             <AutoCompleteTextView
                 android:id="@+id/jornadaServicio"
@@ -126,10 +126,21 @@
             android:layout_below="@id/direccionServicio"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:text="Solicitar Servicio"
+            app:backgroundTint="#934FE8" />
+
+        <Button
+            android:id="@+id/regresarMenuP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/direccionServicio"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Regresar"
             app:backgroundTint="#934FE8"
-            android:onClick="solicitarBtn"/>
+            android:onClick="regresarMenuP"/>
 
     </LinearLayout>
 
