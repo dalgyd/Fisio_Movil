@@ -10,5 +10,6 @@
     <string name="correo">Correo electronico</string>
     <string name="contrasena">Contraseña</string>
     <string name="confirmar_contrasena">Verifique su contraseña</string>
+    <string name="seleccionar_fecha">Fecha de la cita</string>
 
 </resources>
