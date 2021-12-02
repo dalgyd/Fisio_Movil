@@ -133,7 +133,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:text="Solicitar Servicio"
-                app:backgroundTint="#934FE8" />
+                app:backgroundTint="#934FE8"/>
 
             <Button
                 android:id="@+id/regresarMenuP"

@@ -133,7 +133,7 @@ public class SolicitarServicio extends AppCompatActivity {
     public void regresarMenuP (View ss){
         Intent cambiar19 = new Intent(this, MenuPaciente.class);
         startActivity(cambiar19);
-        //Toast.makeText(this,"Usuario registrado",Toast.LENGTH_SHORT).show();
+
     }
 
 }
