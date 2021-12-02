@@ -37,13 +37,13 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="1dp"
+        android:onClick="tratamientoDatosPersonalesP"
         android:text="Autorizo el tratamiento de mi datos personales los cuales he leido y acepto."
-        android:textColor="@color/white"
-        android:onClick="tratamientoDatosPersonalesP"/>
+        android:textColor="@color/white" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/autorizaDatosP"
         android:id="@+id/formularioP">
 
@@ -193,12 +193,22 @@
                     android:id="@+id/verificarContrasenaP"/>
 
             </com.google.android.material.textfield.TextInputLayout>
-
+            <Button
+                        android:id="@+id/registroBtnP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/formularioP"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Confirmar Registro"
+                        app:backgroundTint="#934FE8"
+                        android:onClick="registroBtnP"/>
         </LinearLayout>
 
     </ScrollView>
 
-    <Button
+    <!--<Button
         android:id="@+id/registroBtnP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -207,6 +217,6 @@
         android:layout_marginTop="30dp"
         android:text="Confirmar Registro"
         app:backgroundTint="#934FE8"
-        android:onClick="registroBtnP"/>
+        android:onClick="registroBtnP"/>-->
 
 </RelativeLayout>
