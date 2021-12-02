@@ -1,9 +1,12 @@
 package com.example.fisio_movil;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 public class MenuPaciente extends AppCompatActivity {
@@ -13,7 +16,7 @@ public class MenuPaciente extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_paciente);
 
-        getSupportActionBar().hide();//Oculta barra superior
+        // getSupportActionBar().hide();//Oculta barra superior
 
     }
 
@@ -41,4 +44,29 @@ public class MenuPaciente extends AppCompatActivity {
         startActivity(cambiar9);
     }
 
+    // inicio configuracion del menu
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menudeopciones,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int opcion = item.getItemId();
+
+        switch (opcion){
+            case R.id.home:
+                Intent cambiar = new Intent(this, MainActivity.class);
+                startActivity(cambiar);
+                return true;
+            case R.id.salir:
+                //finish();
+                System.exit(0);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+    // fin configuracion del menu
 }
