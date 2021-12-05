@@ -18,9 +18,9 @@ public class FisioMovilDb extends SQLiteOpenHelper {
     public static final String TABLE_TIPO_DOCUMENTO = "Tipo_Documento";
     public static final String TABLE_ESPECIALIDAD = "Especialidad";
 
-        public FisioMovilDb(@Nullable Context context) {
-            super(context, DATABASE_NOMBRE, null, DATABASE_VERSION);
-        }
+    public FisioMovilDb(@Nullable Context context) {
+        super(context, DATABASE_NOMBRE, null, DATABASE_VERSION);
+    }
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
@@ -70,14 +70,14 @@ public class FisioMovilDb extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(" CREATE TABLE " + TABLE_ESPECIALIDAD + "("+
                 "Id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "Especialidad TEXT NOT NULL)");
-        }
+    }
 
-        @Override
-        public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+    @Override
+    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
 
-            sqLiteDatabase.execSQL(" DROP TABLE " + TABLE_PROFESIONAL);// Consulta
-            onCreate(sqLiteDatabase);
-        }
+        sqLiteDatabase.execSQL(" DROP TABLE " + TABLE_PROFESIONAL);// Consulta
+        onCreate(sqLiteDatabase);
+    }
 
 
 }
